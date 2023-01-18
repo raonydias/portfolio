@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -126,4 +127,37 @@ body {
   background-color: #fff;
   color: #000;
   border-top: 4px solid;
+}
+
+/* FLOATS */
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+  margin-top: 6px;
+}
+
+.product-description {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.product-info {
+  width: 243px; /* (825 - 8 - 250 - 80) */
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.product-details {
+  width: 243px;
+  float: left;
+  margin-top: 20px;
 }

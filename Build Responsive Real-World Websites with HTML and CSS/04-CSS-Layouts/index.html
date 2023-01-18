@@ -2,19 +2,19 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-float.css" />
 
-    <title>[DEMO] A Linguagem Básica da WEB: HTML</title>
+    <title>A Linguagem Básica da WEB: HTML</title>
   </head>
 
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clearfix">
         <h1>📘 O Periódico do Código</h1>
         <nav>
-          <a href="challenge.html">Desafio</a>
-          <a href="#">Flexbox</a>
-          <a href="#">CSS Grid</a>
+          <a href="challenges.html">Extra</a>
+          <a href="flexbox.html">Flexbox</a>
+          <a href="css-grid.html">CSS Grid</a>
         </nav>
       </header>
       <article>
@@ -25,8 +25,9 @@
             alt="Foto de Laura Jones"
             width="50"
             height="50"
+            class="author-img"
           />
-          <p id="author">
+          <p id="author" class="author">
             Postado por <strong>Laura Jones</strong> em 21 de Junho 2027,
             Segunda-feira
           </p>
