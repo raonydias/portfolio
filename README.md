@@ -1,13 +1,12 @@
-# Portfólio
-Olá, boas-vindas ao meu projeto de portfólio.
+# Portfólio — Front-end
+Olá, boas-vindas ao meu portfólio de estudos Front-end.
 
 ## Ferramentas Utilizadas:
 
 * HTML
 * CSS
-  * Flexbox
 
 ## Desenvolvido Por:
 ### Raony Dias
 
-**LinkedIn:** https://www.linkedin.com/in/raony-dias-rodrigues/
+**Página do Portfólio:** https://portfolio-frontend-hazel.vercel.app/
