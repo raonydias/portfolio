@@ -5,7 +5,7 @@ Olá, boas-vindas ao meu projeto de portfólio.
 
 * HTML
 * CSS
-** Flexbox
+  * Flexbox
 
 ## Desenvolvido Por:
 ### Raony Dias
