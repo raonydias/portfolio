@@ -5,6 +5,7 @@
     --branca-principal: #FFF;
     --cinza-secundaria: #C0C0C0;
     --azul-botao: #167BF7;
+    --azul-botao-hover: #3C92FA;
     --cor-fundo: #00030C;
     --fonte-principal: 'Inter', sans-serif;
 }
@@ -59,6 +60,11 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    background-color: var(--azul-botao-hover);
+    color: var(--cor-fundo);
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branca-principal);
@@ -96,4 +102,60 @@ body {
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo {
+    margin-bottom: 2em;
+}
+
+.rodape__lista {
+    margin-top: 1em;   
+    display: flex;
+    justify-content: center; 
+    gap: 16px;
+    list-style-type: none;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branca-principal);
+    font-size: 16px;  
+}
+
+.lista__link a:hover {
+    color: var(--azul-botao);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    font-size: 14px;
+    color: var(--cinza-secundaria);
 }
