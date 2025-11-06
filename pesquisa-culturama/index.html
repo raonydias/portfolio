@@ -33,6 +33,59 @@
                 <label for="userImage">Upload de Foto</label>
                 <input type="file" accept="image/*" name="userImage">                
             </fieldset>
+
+            <fieldset>
+                <legend>Perfil</legend>
+                <p>Gênero:</p>
+                <input type="radio" name="userGender" value="female"><label for="userGender">Feminino</label>                
+                <input type="radio" name="userGender" value="male"><label for="userGender">Masculino</label>                
+                <input type="radio" name="userGender" value="notInformed"><label for="userGender">Prefiro Não Informar</label>
+                
+                <label for="maritalStatus">Estado Civil:</label>
+                <select name="maritalStatus">
+                    <option value="notInformed">Selecione...</option>
+                    <option value="single">Solteiro</option>
+                    <option value="married">Casado</option>
+                    <option value="divorced">Divorciado</option>
+                    <option value="widowed">Viúvo</option>
+                    <option value="separated">Separado</option>
+                    <option value="registered">União estável</option>
+                </select>
+                
+                <label for="userState">Estado:</label>
+                <select name="userState" required>
+                    <option value="acre">Acre</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="distritoFederal">Distrito Federal</option>
+                    <option value="espiritoSanto">Espirito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="matoGrosso">Mato Grosso</option>
+                    <option value="matoGrossoDoSul">Mato Grosso do Sul</option>
+                    <option value="minasGerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="rioDeJaneiro">Rio de Janeiro</option>
+                    <option value="rioGrandeDoNorte">Rio Grande do Norte</option>
+                    <option value="rioGrandeDoSul">Rio Grande do Sul</option>
+                    <option value="rondonia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santaCatarina">Santa Catarina</option>
+                    <option value="saoPaulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select>
+
+                <label for="userCity">Cidade</label>
+                <input type="text" name="userCity" placeholder="Ex.: Rio Branco">
+            </fieldset>
             <button type="submit">Enviar</button>
         </form>
     </section>
