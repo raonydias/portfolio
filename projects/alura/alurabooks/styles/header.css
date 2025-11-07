@@ -44,10 +44,11 @@
 }
 
 .container__botao:checked ~ .lista-menu {
-    display: block;    
+    display: block;
 }
 
-.lista-menu__titulo, .lista-menu__item {
+.lista-menu__titulo,
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branca);
 }
@@ -105,12 +106,12 @@
 
     .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
         background: var(--azul-degrade);
-        color: var(--branca)
+        color: var(--branca);
     }
 
     .opcoes__botao:checked ~ .lista-menu {
         display: block;
-        width: auto;    
+        width: auto;
     }
 
     .lista-menu__item:hover {
@@ -138,7 +139,7 @@
         text-decoration: none;
         color: var(--preta);
     }
-    
+
     .container__texto {
         display: block;
     }

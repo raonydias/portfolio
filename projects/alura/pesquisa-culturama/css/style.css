@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     font-family: "Work Sans", sans-serif;
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 form {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 100px;
@@ -38,7 +38,7 @@ form {
 
 fieldset {
     padding: 15px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -59,11 +59,13 @@ p {
     font-weight: bold;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     border-radius: 5px;
 }
 
@@ -107,18 +109,18 @@ button {
     width: 100px;
     height: 30px;
     margin-right: 10px;
-    background-color: #FFFFFF;
-    border: 1px solid #CCCCCC;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button[type="submit"]:hover {
     background-color: green;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 button[type="reset"]:hover {
     background-color: orangered;
-    color: #FFFFFF;
+    color: #ffffff;
 }

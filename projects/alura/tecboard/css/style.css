@@ -23,11 +23,11 @@
 
 /* Estilo Desktop */
 body {
-    background-color: #0E1014;
-    color: #FFFFFF;
+    background-color: #0e1014;
+    color: #ffffff;
     font-size: 24px;
     font-family: "Poppins", sans-serif;
-    font-weight: normal;    
+    font-weight: normal;
 }
 
 header img {
@@ -45,7 +45,7 @@ h1 {
 }
 
 h1 span {
-    color: #9747FF;
+    color: #9747ff;
 }
 
 p {
@@ -56,8 +56,8 @@ p {
 
 a {
     display: block;
-    background-color: #9747FF;
-    color: #FFFFFF;
+    background-color: #9747ff;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
     line-height: 66px;
@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-    background-color: #8233E8;
+    background-color: #8233e8;
 }
 
 section img {
@@ -80,18 +80,18 @@ section img {
 
 /* Estilo Tablet */
 @media (max-width: 768px) {
-    header img {        
+    header img {
         margin: 65px 0 0 60px;
     }
 
-    p {        
+    p {
         width: 648px;
     }
 }
 
 /* Estilo Mobile */
 @media (max-width: 375px) {
-    header img {        
+    header img {
         margin: 32px 0 0 16px;
     }
 

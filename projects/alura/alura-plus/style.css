@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-    --branca-principal: #FFF;
-    --cinza-secundaria: #C0C0C0;
-    --azul-botao: #167BF7;
-    --azul-botao-hover: #3C92FA;
-    --cor-fundo: #00030C;
-    --fonte-principal: 'Inter', sans-serif;
+    --branca-principal: #fff;
+    --cinza-secundaria: #c0c0c0;
+    --azul-botao: #167bf7;
+    --azul-botao-hover: #3c92fa;
+    --cor-fundo: #00030c;
+    --fonte-principal: "Inter", sans-serif;
 }
 
 * {
@@ -30,7 +29,7 @@ body {
 }
 
 .principal {
-    background-image: url('img/Background.png');
+    background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -47,7 +46,7 @@ body {
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;    
+    margin: 1em 0 2em 0;
 }
 
 .container__botao {
@@ -133,9 +132,9 @@ body {
 }
 
 .rodape__lista {
-    margin-top: 1em;   
+    margin-top: 1em;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     gap: 16px;
     list-style-type: none;
 }
@@ -143,7 +142,7 @@ body {
 .lista__link a {
     text-decoration: none;
     color: var(--branca-principal);
-    font-size: 16px;  
+    font-size: 16px;
 }
 
 .lista__link a:hover {
