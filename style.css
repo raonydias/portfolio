@@ -733,8 +733,32 @@ aside.profile-card {
     .section-title h3 {
         font-size: 0.875rem;
     }
-    .projects {
+    .projects,
+    .contact__grid {
         grid-template-columns: 1fr;
+    }
+    
+
+    /* CURRÍCULO */
+    .tools {
+        justify-content: center;
+    }
+
+    .timeline .sep {
+        display: none;
+    }
+
+    .job {
+        grid-template-columns: 1fr;        
+    }
+
+    .job .muted {
+        order: -1;
+    }
+
+    .bullets {
+       margin: 0;
+       padding: 15px; 
     }
 }
 
