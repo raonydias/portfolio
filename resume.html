@@ -1,301 +1,263 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Raony Dias — Desenvolvedor Front-End • Currículo</title>
-    <meta
-      name="description"
-      content="Portfólio de Raony Dias — estudante de desenvolvimento front-end. Projetos e contato."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container" role="document">
-      <header>
-        <div class="brand">
-          <a href="index.html" class="logo" aria-label="Home — Raony Dias">
-            <img src="img/logo.svg" alt="Logo" />
-          </a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Raony Dias — Desenvolvedor Front-End • Currículo</title>
+        <meta
+            name="description"
+            content="Portfólio de Raony Dias — estudante de desenvolvimento front-end. Projetos e contato."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container" role="document">
+            <header>
+                <div class="brand">
+                    <a href="index.html" class="logo" aria-label="Home — Raony Dias">
+                        <img src="img/logo.svg" alt="Logo" />
+                    </a>
 
-          <div class="title">
-            <h1>Raony Dias</h1>
-            <p>Desenvolvedor Front-End • Estudante</p>
-          </div>
-        </div>
+                    <div class="title">
+                        <h1>Raony Dias</h1>
+                        <p>Desenvolvedor Front-End • Estudante</p>
+                    </div>
+                </div>
 
-        <nav aria-label="Navegação Primária">
-          <a
-            href="#print"
-            class="btn"
-            onclick="window.print ? window.print() : null; return false"
-            >Imprimir</a
-          >
-          <a
-            href="https://wa.me//5511954316614?text=Ol%C3%A1!%20Visualizei%20seu%20curr%C3%ADculo%20e%20gostaria%20de%20conversar!"
-            target="_blank"
-            class="btn cta"
-            aria-label="Enviar mensagem de WhatsApp para Raony Dias"
-            >Contratar / Contatar</a
-          >
-        </nav>
-      </header>
-
-      <main class="main-grid" role="main">
-        <div class="primary">
-          <!-- Resumo -->
-          <section class="resume-card summary" aria-labelledby="summary__title">
-            <h2 class="summary__title">Resumo</h2>
-            <p>
-              Estudante de desenvolvimento front-end que constrói interfaces
-              rápidas, acessíveis e visualmente limpas usando HTML semântico e
-              CSS moderno.
-            </p>
-          </section>
-
-          <!-- Experiência -->
-          <section class="resume-card" aria-labelledby="exp__title">
-            <h2 class="exp__title">Experiência Profissional</h2>
-
-            <div class="timeline" role="list">
-              <article class="job" role="listitem" aria-labelledby="j1">
-                <div>
-                  <h3 class="j1">Professor de Informática</h3>
-                  <div class="job-info">Set 2016 — Presente • São Paulo</div>
-                  <p>
-                    Trabalho autônomo realizado ao longo dos anos, lecionando
-                    aulas individuais e em grupo para diversas faixas etárias.
-                    Parte das aulas foram intermediadas através da plataforma
-                    online
-                    <a href="https://www.superprof.com.br/" target="_blank"
-                      >Superprof</a
+                <nav aria-label="Navegação Primária">
+                    <a href="#print" class="btn" onclick="window.print ? window.print() : null; return false"
+                        >Imprimir</a
                     >
-                    embora a vasta maioria tenha ocorrido através de redes
-                    sociais e indicações.
-                  </p>
-                  <ul class="bullets">
-                    <li>
-                      Preparar conteúdos e planos de aula personalizados para
-                      diferentes perfis de alunos (individual e grupo)
-                    </li>
-                    <li>
-                      Estudar, revisar e adaptar conteúdos para cada faixa
-                      etária e nível de conhecimento.
-                    </li>
-                    <li>
-                      Criar exercícios práticos e avaliações para reforçar o
-                      aprendizado.
-                    </li>
-                    <li>Ensinar presencialmente e online.</li>
-                    <li>
-                      Gerenciar agenda de aulas, pagamentos e comunicação com
-                      alunos/responsáveis.
-                    </li>
-                    <li>
-                      Adaptar linguagem e metodologia conforme dificuldade e
-                      ritmo de cada estudante.
-                    </li>
-                  </ul>
-                </div>
-                <div class="muted">Autônomo</div>
-              </article>
-              <div class="sep"></div>
-              <article class="job" role="listitem" aria-labelledby="j2">
-                <div>
-                  <h3 class="j2">Assistente Administrativo</h3>
-                  <div class="job-info">
-                    Mar 2016 — Set 2016 • Taboão da Serra
-                  </div>
-                  <p>
-                    Funcionário público concursado na Prefeitura de Taboão da
-                    Serra atuando em uma Unidade Básica de Saúde (UBS).
-                  </p>
-                  <ul class="bullets">
-                    <li>
-                      Apoiar diversos processos administrativos internos da
-                      prefeitura.
-                    </li>
-                    <li>
-                      Organizar documentos, arquivar informações e auxiliar no
-                      fluxo de dados burocráticos.
-                    </li>
-                    <li>Atender demandas de setores internos e do público.</li>
-                    <li>
-                      Auxiliar no uso de sistemas administrativos e ferramentas
-                      de escritório (Microsoft Office, etc.)
-                    </li>
-                  </ul>
-                </div>
-                <div class="muted">Prefeitura de Taboão da Serra</div>
-              </article>
-              <div class="sep"></div>
-              <article class="job" role="listitem" aria-labelledby="j3">
-                <div>
-                  <h3 class="j3">Coordenador Pedagógico</h3>
-                  <div class="job-info">Out 2015 — Fev 2016 • São Paulo</div>
-                  <p>
-                    Responsável pela organização de eventos acadêmicos e
-                    produção de arte digital para o Colégio.
-                  </p>
-                  <ul class="bullets">
-                    <li>
-                      Apoiar a coordenação pedagógica em tarefas do dia a dia da
-                      instituição.
-                    </li>
-                    <li>
-                      Organizar e participar da criação e execução de eventos
-                      escolares/acadêmicos.
-                    </li>
-                    <li>
-                      Produzir materiais visuais e arte digital para atividades
-                      escolares.
-                    </li>
-                    <li>
-                      Auxiliar coordenadores e professores em demandas
-                      pedagógicas e administrativas.
-                    </li>
-                  </ul>
-                </div>
-                <div class="muted">Colégio Giordano Bruno</div>
-              </article>
-            </div>
-          </section>
+                    <a
+                        href="https://wa.me//5511954316614?text=Ol%C3%A1!%20Visualizei%20seu%20curr%C3%ADculo%20e%20gostaria%20de%20conversar!"
+                        target="_blank"
+                        class="btn cta"
+                        aria-label="Enviar mensagem de WhatsApp para Raony Dias"
+                        >Contratar / Contatar</a
+                    >
+                </nav>
+            </header>
 
-          <section class="resume-card" aria-labelledby="edu__title">
-            <h2 class="edu__title">Formação Acadêmica</h2>
-            <div class="edu__list" role="list">
-              <article class="edu" role="listitem">
-                <div>
-                  <b
-                    >Análise e Desenvolvimento de Sistemas — Superior
-                    Tecnólogo</b
-                  >
-                  <div class="edu-info muted">2023 — Presente • São Paulo</div>
-                </div>
-                <div class="muted">
-                  Faculdade de Tecnologia de São Paulo (Fatec)
-                </div>
-              </article>
-            </div>
-          </section>
+            <main class="main-grid" role="main">
+                <div class="primary">
+                    <!-- Resumo -->
+                    <section class="resume-card summary" aria-labelledby="summary__title">
+                        <h2 class="summary__title">Resumo</h2>
+                        <p>
+                            Estudante de desenvolvimento front-end que constrói interfaces rápidas, acessíveis e
+                            visualmente limpas usando HTML semântico e CSS moderno.
+                        </p>
+                    </section>
 
-          <section class="resume-card" aria-labelledby="avail__title">
-            <h2 class="avail__title">Disponibilidade</h2>
-            <p class="avail__text muted">
-              Disponível para estágios, vagas integrais e em regime de meio
-              período e projetos front-end freelance. Possibilidade de início
-              imediato. Confortável com vagas remotas, híbridas ou presenciais.
-            </p>
-          </section>
+                    <!-- Experiência -->
+                    <section class="resume-card" aria-labelledby="exp__title">
+                        <h2 class="exp__title">Experiência Profissional</h2>
+
+                        <div class="timeline" role="list">
+                            <article class="job" role="listitem" aria-labelledby="j1">
+                                <div>
+                                    <h3 class="j1">Professor de Informática</h3>
+                                    <div class="job-info">Set 2016 — Presente • São Paulo</div>
+                                    <p>
+                                        Trabalho autônomo realizado ao longo dos anos, lecionando aulas individuais e em
+                                        grupo para diversas faixas etárias. Parte das aulas foram intermediadas através
+                                        da plataforma online
+                                        <a href="https://www.superprof.com.br/" target="_blank">Superprof</a>
+                                        embora a vasta maioria tenha ocorrido através de redes sociais e indicações.
+                                    </p>
+                                    <ul class="bullets">
+                                        <li>
+                                            Preparar conteúdos e planos de aula personalizados para diferentes perfis de
+                                            alunos (individual e grupo)
+                                        </li>
+                                        <li>
+                                            Estudar, revisar e adaptar conteúdos para cada faixa etária e nível de
+                                            conhecimento.
+                                        </li>
+                                        <li>Criar exercícios práticos e avaliações para reforçar o aprendizado.</li>
+                                        <li>Ensinar presencialmente e online.</li>
+                                        <li>
+                                            Gerenciar agenda de aulas, pagamentos e comunicação com alunos/responsáveis.
+                                        </li>
+                                        <li>
+                                            Adaptar linguagem e metodologia conforme dificuldade e ritmo de cada
+                                            estudante.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="muted">Autônomo</div>
+                            </article>
+                            <div class="sep"></div>
+                            <article class="job" role="listitem" aria-labelledby="j2">
+                                <div>
+                                    <h3 class="j2">Assistente Administrativo</h3>
+                                    <div class="job-info">Mar 2016 — Set 2016 • Taboão da Serra</div>
+                                    <p>
+                                        Funcionário público concursado na Prefeitura de Taboão da Serra atuando em uma
+                                        Unidade Básica de Saúde (UBS).
+                                    </p>
+                                    <ul class="bullets">
+                                        <li>Apoiar diversos processos administrativos internos da prefeitura.</li>
+                                        <li>
+                                            Organizar documentos, arquivar informações e auxiliar no fluxo de dados
+                                            burocráticos.
+                                        </li>
+                                        <li>Atender demandas de setores internos e do público.</li>
+                                        <li>
+                                            Auxiliar no uso de sistemas administrativos e ferramentas de escritório
+                                            (Microsoft Office, etc.)
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="muted">Prefeitura de Taboão da Serra</div>
+                            </article>
+                            <div class="sep"></div>
+                            <article class="job" role="listitem" aria-labelledby="j3">
+                                <div>
+                                    <h3 class="j3">Coordenador Pedagógico</h3>
+                                    <div class="job-info">Out 2015 — Fev 2016 • São Paulo</div>
+                                    <p>
+                                        Responsável pela organização de eventos acadêmicos e produção de arte digital
+                                        para o Colégio.
+                                    </p>
+                                    <ul class="bullets">
+                                        <li>Apoiar a coordenação pedagógica em tarefas do dia a dia da instituição.</li>
+                                        <li>
+                                            Organizar e participar da criação e execução de eventos
+                                            escolares/acadêmicos.
+                                        </li>
+                                        <li>Produzir materiais visuais e arte digital para atividades escolares.</li>
+                                        <li>
+                                            Auxiliar coordenadores e professores em demandas pedagógicas e
+                                            administrativas.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="muted">Colégio Giordano Bruno</div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="resume-card" aria-labelledby="edu__title">
+                        <h2 class="edu__title">Formação Acadêmica</h2>
+                        <div class="edu__list" role="list">
+                            <article class="edu" role="listitem">
+                                <div>
+                                    <b>Análise e Desenvolvimento de Sistemas — Superior Tecnólogo</b>
+                                    <div class="edu-info muted">2023 — Presente • São Paulo</div>
+                                </div>
+                                <div class="muted">Faculdade de Tecnologia de São Paulo (Fatec)</div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="resume-card" aria-labelledby="avail__title">
+                        <h2 class="avail__title">Disponibilidade</h2>
+                        <p class="avail__text muted">
+                            Disponível para estágios, vagas integrais e em regime de meio período e projetos front-end
+                            freelance. Possibilidade de início imediato. Confortável com vagas remotas, híbridas ou
+                            presenciais.
+                        </p>
+                    </section>
+                </div>
+
+                <aside class="profile-card" role="complementary" aria-label="Perfil e habilidades">
+                    <div class="box">
+                        <div class="profile-info">
+                            <div class="avatar" aria-hidden="true">
+                                <img src="img/raony.jpeg" alt="Foto de Raony Dias" />
+                            </div>
+                            <div>
+                                <div class="profile-name">Raony Dias</div>
+                                <div class="profile-description muted">Estudante de Desenvolvimento Front-End</div>
+                            </div>
+                        </div>
+
+                        <div class="sep"></div>
+
+                        <div class="resume-contact">
+                            <h3 class="resume-contact__title">Contato</h3>
+                            <div class="contact-list">
+                                <div>
+                                    Email:
+                                    <a href="mailto:rodriguesraony@gmail.com">rodriguesraony@gmail.com</a>
+                                </div>
+                                <div>
+                                    LinkedIn:
+                                    <a
+                                        class="show-url"
+                                        href="https://www.linkedin.com/in/raony-dias-rodrigues/"
+                                        target="_blank"
+                                        aria-label="LinkedIn de Raony Dias"
+                                        >raony-dias-rodrigues</a
+                                    >
+                                </div>
+                                <div>
+                                    GitHub:
+                                    <a
+                                        class="show-url"
+                                        href="https://github.com/raonydias"
+                                        target="_blank"
+                                        aria-label="GitHub de Raony Dias"
+                                        >raonydias</a
+                                    >
+                                </div>
+                                <div>Localização: São Paulo, SP, Brasil</div>
+                            </div>
+                        </div>
+
+                        <div class="sep"></div>
+
+                        <div>
+                            <h3 class="skills__title">Habilidades</h3>
+
+                            <div class="skills" aria-hidden="true">
+                                <span class="chip">HTML</span>
+                                <span class="chip">CSS</span>
+                            </div>
+
+                            <div class="skill-meter" aria-hidden="true">
+                                <div class="meter-row">
+                                    <div class="muted">HTML</div>
+                                    <div class="meter-wrap">
+                                        <div class="meter"><span class="meter-html"></span></div>
+                                    </div>
+                                </div>
+
+                                <div class="meter-row">
+                                    <div class="muted">CSS</div>
+                                    <div class="meter-wrap">
+                                        <div class="meter"><span class="meter-css"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sep"></div>
+
+                        <div>
+                            <h3 class="tools__title">Ferramentas</h3>
+                            <div class="tools" aria-hidden="true">
+                                <span class="chip">VS Code</span>
+                                <span class="chip">Git</span>
+                                <span class="chip">Figma</span>
+                                <span class="chip">Chrome DevTools</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </main>
+
+            <footer role="contentinfo">
+                <div>&copy; <b>Raony Dias</b> — estudante de desenvolvimento front-end</div>
+                <div class="muted">Atualizado em: 7 de novembro de 2025</div>
+            </footer>
         </div>
-
-        <aside
-          class="profile-card"
-          role="complementary"
-          aria-label="Perfil e habilidades"
-        >
-          <div class="box">
-            <div class="profile-info">
-              <div class="avatar" aria-hidden="true">
-                <img src="img/raony.jpeg" alt="Foto de Raony Dias" />
-              </div>
-              <div>
-                <div class="profile-name">Raony Dias</div>
-                <div class="profile-description muted">
-                  Estudante de Desenvolvimento Front-End
-                </div>
-              </div>
-            </div>
-
-            <div class="sep"></div>
-
-            <div class="resume-contact">
-              <h3 class="resume-contact__title">Contato</h3>
-              <div class="contact-list">
-                <div>
-                  Email:
-                  <a href="mailto:rodriguesraony@gmail.com"
-                    >rodriguesraony@gmail.com</a
-                  >
-                </div>
-                <div>
-                  LinkedIn:
-                  <a
-                    class="show-url"
-                    href="https://www.linkedin.com/in/raony-dias-rodrigues/"
-                    target="_blank"
-                    aria-label="LinkedIn de Raony Dias"
-                    >raony-dias-rodrigues</a
-                  >
-                </div>
-                <div>
-                  GitHub:
-                  <a
-                    class="show-url"
-                    href="https://github.com/raonydias"
-                    target="_blank"
-                    aria-label="GitHub de Raony Dias"
-                    >raonydias</a
-                  >
-                </div>
-                <div>Localização: São Paulo, SP, Brasil</div>
-              </div>
-            </div>
-
-            <div class="sep"></div>
-
-            <div>
-              <h3 class="skills__title">Habilidades</h3>
-
-              <div class="skills" aria-hidden="true">
-                <span class="chip">HTML</span>
-                <span class="chip">CSS</span>
-              </div>
-
-              <div class="skill-meter" aria-hidden="true">
-                <div class="meter-row">
-                  <div class="muted">HTML</div>
-                  <div class="meter-wrap">
-                    <div class="meter"><span class="meter-html"></span></div>
-                  </div>
-                </div>
-
-                <div class="meter-row">
-                  <div class="muted">CSS</div>
-                  <div class="meter-wrap">
-                    <div class="meter"><span class="meter-css"></span></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="sep"></div>
-
-            <div>
-              <h3 class="tools__title">Ferramentas</h3>
-              <div class="tools" aria-hidden="true">
-                <span class="chip">VS Code</span>
-                <span class="chip">Git</span>
-                <span class="chip">Figma</span>
-                <span class="chip">Chrome DevTools</span>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </main>
-
-      <footer role="contentinfo">
-        <div>
-          &copy; <b>Raony Dias</b> — estudante de desenvolvimento front-end
-        </div>
-        <div class="muted">Atualizado em: 7 de novembro de 2025</div>
-      </footer>
-    </div>
-  </body>
+    </body>
 </html>
