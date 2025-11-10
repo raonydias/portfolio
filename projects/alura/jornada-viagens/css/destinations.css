@@ -32,6 +32,26 @@
     width: 100%;
 }
 
+/* BLOG */
+.blog .img-destination-item {
+    height: 300px;
+}
+
+.blog .img-destination-item.osaka {
+    background: url("../img/blog/osaka-mobile.png") no-repeat;
+    background-position: cover;
+}
+
+.blog .img-destination-item.hiroshima {
+    background: url("../img/blog/hiroshima-mobile.png") no-repeat;
+    background-position: cover;
+}
+
+.blog .img-destination-item.kyoto {
+    background: url("../img/blog/kyoto-mobile.png") no-repeat;
+    background-position: cover;
+}
+
 @media screen and (min-width: 768px) {
     .img-destination-item {
         height: 452px;
@@ -50,6 +70,21 @@
     .destination-item .button {
         width: 280px;
     }
+
+    /* BLOG */
+    .blog .img-destination-item.osaka {
+        background: url("../img/blog/osaka-tablet.png") no-repeat;
+        background-position: cover;
+    }
+    .blog .img-destination-item.hiroshima {
+        background: url("../img/blog/hiroshima-tablet.png") no-repeat;
+        background-position: cover;
+    }
+
+    .blog .img-destination-item.kyoto {
+        background: url("../img/blog/kyoto-tablet.png") no-repeat;
+        background-position: cover;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -65,6 +100,21 @@
 
     .img-destination-item.osaka {
         background: url("../img/osaka-desktop.png") no-repeat;
+        background-position: cover;
+    }
+
+    /* BLOG */
+    .blog .img-destination-item.osaka {
+        background: url("../img/blog/osaka-desktop.png") no-repeat;
+        background-position: cover;
+    }
+    .blog .img-destination-item.hiroshima {
+        background: url("../img/blog/hiroshima-desktop.png") no-repeat;
+        background-position: cover;
+    }
+
+    .blog .img-destination-item.kyoto {
+        background: url("../img/blog/kyoto-desktop.png") no-repeat;
         background-position: cover;
     }
 }

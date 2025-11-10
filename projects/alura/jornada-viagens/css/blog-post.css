@@ -1,0 +1,41 @@
+.blog-post h3 {
+    margin: 24px 0;
+}
+
+.blog-post p {
+    margin-bottom: 8px;
+}
+
+.blog-post .image-1 img,
+.blog-post .image-2 img {
+    width: 312px;
+}
+
+.blog-post small {
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .content-1 {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+    .content-1 .content-title {
+        margin-top: 0;
+    }
+    .blog-post .image-2 img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content-1 {
+        align-items: start;
+    }
+    .blog-post .image-1 img {
+        width: 588px;
+    }
+}
