@@ -1,0 +1,82 @@
+.payments .content-container .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    width: 100%;
+    height: 460px;
+    margin-top: 24px;
+}
+
+.payments .content-container .image-gallery .image.first {
+    background: url("../img/baggage-mobile.png") no-repeat;
+    background-size: cover;
+}
+.payments .content-container .image-gallery .image.second {
+    background: url("../img/passport-mobile.png") no-repeat;
+    background-size: cover;
+}
+.payments .content-container .image-gallery .image.third {
+    background: url("../img/people-mobile.png") no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .payments .content-container .image-gallery .image.first {
+        background: url("../img/baggage-tablet.png") no-repeat;
+        background-size: cover;
+    }
+    .payments .content-container .image-gallery .image.second {
+        background: url("../img/passport-tablet.png") no-repeat;
+        background-size: cover;
+    }
+    .payments .content-container .image-gallery .image.third {
+        background: url("../img/people-tablet.png") no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .payments .content-container .image-gallery .image.first {
+        background: url("../img/baggage-desktop.png") no-repeat;
+        background-size: cover;
+    }
+    .payments .content-container .image-gallery .image.second {
+        background: url("../img/passport-desktop.png") no-repeat;
+        background-size: cover;
+    }
+    .payments .content-container .image-gallery .image.third {
+        background: url("../img/people-desktop.png") no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .payments .content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .payments .content-container .text-content {
+        width: 371px;
+    }
+
+    .payments .content-container .image-gallery {
+        width: 790px;
+        margin: 0;
+    }
+
+    .payments .content-container .image-gallery .image.first {
+        background: url("../img/baggage-large.png") no-repeat;
+        background-size: cover;
+    }
+    .payments .content-container .image-gallery .image.second {
+        background: url("../img/passport-large.png") no-repeat;
+        background-size: cover;
+    }
+    .payments .content-container .image-gallery .image.third {
+        background: url("../img/people-large.png") no-repeat;
+        background-size: cover;
+    }
+}
