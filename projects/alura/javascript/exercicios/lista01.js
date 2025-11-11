@@ -42,7 +42,7 @@ cliques++;
 console.log("O botão foi clicado", cliques, "vezes.");
 
 // 9. Crie uma constante chamada PI com o valor 3.14. Tente alterar seu valor e observe o erro gerado. Depois, explique por que isso acontece.
-console.log("Exercício resolvido no arquivo 'lista01-09.js'");
+console.log("Exercício 9 resolvido no arquivo 'lista01-09.js'");
 
 // 10. Crie uma variável mensagem contendo uma string e outra numero contendo um número. Junte as duas em uma terceira variável e exiba o resultado e o tipo final no console usando typeof.
 let mensagem = "Eu gosto do número ";
