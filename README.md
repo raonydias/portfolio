@@ -2,11 +2,18 @@
 
 Olá, boas-vindas ao meu portfólio de estudos Front-end.
 
-## Ferramentas Utilizadas:
+## Linguagens Utilizadas:
 
 -   HTML
 -   CSS
 -   JavaScript
+
+## Ferramentas Utilizadas:
+
+-   VS Code
+-   Figma
+-   Git
+-   Vercel
 
 ## Desenvolvido Por:
 
