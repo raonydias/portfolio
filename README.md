@@ -6,6 +6,7 @@ Olá, boas-vindas ao meu portfólio de estudos Front-end.
 
 -   HTML
 -   CSS
+-   JavaScript
 
 ## Desenvolvido Por:
 
