@@ -695,13 +695,16 @@ aside.profile-card {
 
 /* Nível das Habilidades */
 .meter-html {
-    width: 92%;
+    width: 90%;
 }
 
 .meter-css {
-    width: 84%;
+    width: 80%;
 }
 
+.meter-js {
+    width: 70%;
+}
 /* ========================== **
    RESPONSIVIDADE
 ** ========================== */
