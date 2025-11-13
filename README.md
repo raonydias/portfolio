@@ -1,6 +1,6 @@
-# Portfólio — Front-end
+# Portfólio — Desenvolvimento Web
 
-Olá, boas-vindas ao meu portfólio de estudos Front-end.
+Olá, boas-vindas ao meu portfólio de estudos de desenvolvimento web.
 
 ## Linguagens Utilizadas:
 
@@ -14,9 +14,10 @@ Olá, boas-vindas ao meu portfólio de estudos Front-end.
 -   Figma
 -   Git
 -   Vercel
+-   Node.js
 
 ## Desenvolvido Por:
 
 ### Raony Dias
 
-**Página do Portfólio:** https://portfolio-frontend-raony.vercel.app/
+**Página do Portfólio:** https://portfolio-web-raony.vercel.app/
