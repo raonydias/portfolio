@@ -115,6 +115,9 @@ const removerTarefas = (somenteCompletas) => {
     });
     tarefas = somenteCompletas ? tarefas.filter((tarefa) => !tarefa.completa) : [];
     atualizarTarefas();
+    paragrafoDescricaoTarefa.textContent = "";
+    tarefaSelecionada = null;
+    liTarefaSelecionada = null;
 };
 
 btnRemoverConcluidas.onclick = () => removerTarefas(true);
