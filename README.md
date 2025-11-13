@@ -13,11 +13,10 @@ Olá, boas-vindas ao meu portfólio de estudos de desenvolvimento web.
 -   VS Code
 -   Figma
 -   Git
--   Vercel
 -   Node.js
 
 ## Desenvolvido Por:
 
 ### Raony Dias
 
-**Página do Portfólio:** https://portfolio-web-raony.vercel.app/
+**Página do Portfólio:** https://raonydias.github.io/portfolio-web/
