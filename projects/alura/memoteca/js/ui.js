@@ -2,9 +2,18 @@ import api from "./api.js";
 
 const ui = {
     async renderizarPensamentos() {
+        const listaPensamentos = document.getElementById("lista-pensamentos");
+        const mensagemVazia = document.getElementById("mensagem-vazia");
+        listaPensamentos.innerHTML = "";
+
         try {
             const pensamentos = await api.buscarPensamentos();
-            pensamentos.forEach(ui.adicionarPensamentoNaLista);
+            if (pensamentos.length === 0) {
+                mensagemVazia.style.display = "block";
+            } else {
+                mensagemVazia.style.display = "none";
+                pensamentos.forEach(ui.adicionarPensamentoNaLista);
+            }
         } catch (error) {
             alert("Erro ao renderizar pensamento");
             throw error;
@@ -41,7 +50,26 @@ const ui = {
         iconeEditar.setAttribute("src", "assets/imagens/icone-editar.png");
         iconeEditar.setAttribute("alt", "Editar");
         botaoEditar.appendChild(iconeEditar);
+
+        const botaoExcluir = document.createElement("button");
+        botaoExcluir.classList.add("botao-excluir");
+        botaoExcluir.onclick = async () => {
+            try {
+                await api.excluirPensamento(pensamento.id);
+                ui.renderizarPensamentos();
+            } catch (error) {
+                alert("Erro ao excluir pensamento.");
+                throw error;
+            }
+        };
+
+        const iconeExcluir = document.createElement("img");
+        iconeExcluir.setAttribute("src", "assets/imagens/icone-excluir.png");
+        iconeExcluir.setAttribute("alt", "Excluir");
+        botaoExcluir.appendChild(iconeExcluir);
+
         icones.appendChild(botaoEditar);
+        icones.appendChild(botaoExcluir);
 
         li.appendChild(iconeAspas);
         li.appendChild(pensamentoConteudo);
@@ -55,6 +83,8 @@ const ui = {
         document.getElementById("pensamento-id").value = pensamento.id;
         document.getElementById("pensamento-conteudo").value = pensamento.conteudo;
         document.getElementById("pensamento-autoria").value = pensamento.autoria;
+
+        document.getElementById("pensamento-conteudo").focus();
     },
 };
 
