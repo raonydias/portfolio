@@ -11,11 +11,6 @@
       "autoria": "Mestre Yoda"
     },
     {
-      "id": "5b8a",
-      "conteudo": "Na minha máquina funciona!",
-      "autoria": "Dev"
-    },
-    {
       "id": "68uy",
       "conteudo": "Esse é de laranja que parece de limão, mas tem gosto de tamarindo!",
       "autoria": "Chaves"
@@ -74,6 +69,11 @@
       "id": "d043",
       "conteudo": " Testando",
       "autoria": "Teste"
+    },
+    {
+      "id": "38de",
+      "conteudo": "Na volta a gente compra! Mas não comprou!",
+      "autoria": "Mãe"
     }
   ]
 }

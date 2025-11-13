@@ -30,10 +30,31 @@ const ui = {
         pensamentoAutoria.textContent = pensamento.autoria;
         pensamentoAutoria.classList.add("pensamento-autoria");
 
+        const icones = document.createElement("div");
+        icones.classList.add("icones");
+
+        const botaoEditar = document.createElement("button");
+        botaoEditar.classList.add("botao-editar");
+        botaoEditar.onclick = () => ui.preencherFormulario(pensamento.id);
+
+        const iconeEditar = document.createElement("img");
+        iconeEditar.setAttribute("src", "assets/imagens/icone-editar.png");
+        iconeEditar.setAttribute("alt", "Editar");
+        botaoEditar.appendChild(iconeEditar);
+        icones.appendChild(botaoEditar);
+
         li.appendChild(iconeAspas);
         li.appendChild(pensamentoConteudo);
         li.appendChild(pensamentoAutoria);
+        li.appendChild(icones);
         listaPensamentos.appendChild(li);
+    },
+
+    async preencherFormulario(pensamentoId) {
+        const pensamento = await api.buscarPensamentoPorId(pensamentoId);
+        document.getElementById("pensamento-id").value = pensamento.id;
+        document.getElementById("pensamento-conteudo").value = pensamento.conteudo;
+        document.getElementById("pensamento-autoria").value = pensamento.autoria;
     },
 };
 
