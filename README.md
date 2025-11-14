@@ -7,6 +7,7 @@ Olá, boas-vindas ao meu portfólio de estudos de desenvolvimento web.
 -   HTML
 -   CSS
 -   JavaScript
+-   Python
 
 ## Ferramentas Utilizadas:
 
@@ -14,8 +15,6 @@ Olá, boas-vindas ao meu portfólio de estudos de desenvolvimento web.
 -   Figma
 -   Git
 -   Node.js
--   Vite
--   Axios
 
 ## Desenvolvido Por:
 
