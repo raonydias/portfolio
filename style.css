@@ -703,7 +703,11 @@ aside.profile-card {
 }
 
 .meter-js {
-    width: 70%;
+    width: 90%;
+}
+
+.meter-py {
+    width: 50%;
 }
 /* ========================== **
    RESPONSIVIDADE
