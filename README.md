@@ -1,8 +1,8 @@
-# Portfólio — Desenvolvimento Web
+# Portfólio — Desenvolvimento
 
-Olá, boas-vindas ao meu portfólio de estudos de desenvolvimento web.
+Olá, boas-vindas ao meu portfólio de estudos de desenvolvimento.
 
-## Linguagens Utilizadas:
+## Linguagens Estudadas:
 
 -   HTML
 -   CSS
@@ -20,4 +20,4 @@ Olá, boas-vindas ao meu portfólio de estudos de desenvolvimento web.
 
 ### Raony Dias
 
-**Página do Portfólio:** https://raonydias.github.io/portfolio-web/
+**Página do Portfólio:** https://raonydias.github.io/portfolio/
