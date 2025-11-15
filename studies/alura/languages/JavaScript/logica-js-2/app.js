@@ -1,5 +1,8 @@
 function exibirTextoNaTela(tag, texto) {
     document.querySelector(tag).textContent = texto;
+    if (tag == "p") {
+        responsiveVoice.speak(texto, "Brazilian Portuguese Female", { rate: 1.2 });
+    }
 }
 
 function gerarNumeroAleatorio() {
@@ -52,7 +55,7 @@ function novoJogo() {
 }
 
 let listaNumerosSorteados = [];
-let numeroMaximo = 3;
+let numeroMaximo = 10;
 let numeroSecreto;
 let tentativas;
 
